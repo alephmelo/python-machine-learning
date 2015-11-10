@@ -76,7 +76,7 @@ for k in range(1,max_int):
         else:
             y = -1
             
-        # atualiza os pesos
+        # update
         for j in range (0,len(w)):                
            # regra delta
            w[j] = w[j] + taxa_aprendizado * (t[i] - y_in) * x[i][j]        

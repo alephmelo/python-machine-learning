@@ -10,6 +10,8 @@ import os
 
 random.seed(0)
 
+
+# to-do
 # corrigir o erro = TERM environment variable not set.
 # os.environ["TERM"] = 'xterm'
 

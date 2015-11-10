@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Perceptron implementação
-# aplicativo para verificar se o ser vivo eh quadrupede ou bipede
+# Perceptron Implementation
 # fourfeet = 1, twofeet = -1
 # dog = [-1,-1,1,1] | answer = 1
 # cat = [1,1,1,1] | answer = 1
@@ -10,7 +9,7 @@
 
 # pesos (sinapses)
 w = [0,0,0,0]
-# entradas
+# input
 x = [[-1,-1,1,1],
      [1,1,1,1],
      [1,1,-1,1],
