@@ -70,7 +70,7 @@ for k in range(1,max_int):
         #print("y_in = ",str(y_in))        
                   
 
-        # funcao de ativação
+        # activate function
         if y_in >= 0:
             y = 1       
         else:

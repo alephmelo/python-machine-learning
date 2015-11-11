@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 # Perceptron implementação
 # aplicativo para verificar se o ser vivo eh quadrupede ou bipede
-# quadrupede = 1, bipede = -1
-# cao = [-1,-1,1,1] | resposta = 1
-# gato = [1,1,1,1] | resposta = 1
-# cavalo = [1,1,-1,1] | resposta = 1
-# homem = [-1,-1,-1,1] | resposta = -1
+# fourfeet = 1, twofeet = -1
+# dog = [-1,-1,1,1] | answer = 1
+# cat = [1,1,1,1] | answer = 1
+# horse = [1,1,-1,1] | answer = 1
+# man = [-1,-1,-1,1] | answer = -1
 
 # pesos (sinapses)
 w = [0,0,0,0]
