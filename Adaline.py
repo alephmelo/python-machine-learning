@@ -54,7 +54,7 @@ for k in range(1,max_int):
     for i in range(0,len(x)):
         soma = 0
         
-        # pega o nome do animal no dicionário
+        # get animal's name from dict
         if d.has_key(listToString(x[i])):
             animal = d[listToString(x[i])]  
         else:
@@ -65,7 +65,7 @@ for k in range(1,max_int):
         for j in range(0,len(x[i])):
             soma += x[i][j] * w[j]
 
-        # a saida eh igual a soma anterior
+        # the output is eaual the previous one
         y_in = soma
         #print("y_in = ",str(y_in))        
                   
@@ -87,7 +87,7 @@ for k in range(1,max_int):
         else:
             resposta = "erro"
         
-        #imprime a resposta
+        # print the aswer
         if y == 1:
             print(animal+" = quadrupede = "+resposta)
         elif y == 0:
