@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# XOR Multilayer Perceptron usando BackPropagation
+# XOR Multilayer Perceptron using BackPropagation
 # Baseado no algoritmo de Neil Schemenauer <nas@arctrix.com>
 
 import math
