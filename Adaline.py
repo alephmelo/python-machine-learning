@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Implementação da rede adaline
-# aplicativo para verificar se o ser vivo é quadrupede ou bipede
+# Adaline network implementation
+# The network learns if certain animal has two or four feet.
 # quadrupede = 1, bipede = -1
 # cao = [-1,-1,1,1] | resposta = 1
 # gato = [1,1,1,1] | resposta = 1
 # cavalo = [1,1,-1,1] | resposta = 1
 # homem = [-1,-1,-1,1] | resposta = -1
 
-# pesos (sinapses)
+# (sinapses)
 w = [0,0,0,0]
 # entradas
 x = [[-1,-1,1,1],
