@@ -21,19 +21,19 @@ t = [1,1,1,-1]
 b = 0
 # output
 y = 0
-# numero maximo de interacoes
+# max numbers of interactions
 max_int = 1000
-# taxa de aprendizado
+# learning pace
 taxa_aprendizado = 0.0025
-#soma
+# sum
 soma = 0
 
-# nome do animal
+# animal's name
 animal = ""
-# resposta = acerto ou falha
+# answer = right or wrong
 resposta = ""
 
-# dicionario de dados
+# data dict
 d = {'-1,-1,1,1' : 'cao', 
      '1,1,1,1' : 'gato', 
      '1,1,-1,1' : 'cavalo',
@@ -41,13 +41,13 @@ d = {'-1,-1,1,1' : 'cao',
 
 print("Treinando")
 
-# funcao para converter listas em strings
+# convert list to string function
 def listToString(list):
     s = str(list).strip('[]')
     s = s.replace(' ', '')
     return s
 
-# inicio do algoritmo
+# magic happens
 for k in range(1,max_int):
     acertos = 0    
     print("INTERACAO "+str(k)+"-------------------------")
