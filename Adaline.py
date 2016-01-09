@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# Implementação da rede adaline
 # aplicativo para verificar se o ser vivo é quadrupede ou bipede
 # quadrupede = 1, bipede = -1
 # cao = [-1,-1,1,1] | resposta = 1
