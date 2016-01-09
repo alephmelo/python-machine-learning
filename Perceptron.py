@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+# Perceptron implementação
 # aplicativo para verificar se o ser vivo eh quadrupede ou bipede
 # quadrupede = 1, bipede = -1
 # cao = [-1,-1,1,1] | resposta = 1
