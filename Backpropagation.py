@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # XOR Multilayer Perceptron using BackPropagation
-# Baseado no algoritmo de Neil Schemenauer <nas@arctrix.com>
+# Based on Neil Schemenauer's algorhitm
 
 import math
 import random
@@ -12,10 +12,10 @@ random.seed(0)
 
 
 # to-do
-# corrigir o erro = TERM environment variable not set.
+# fix TERM environment variable not set.
 # os.environ["TERM"] = 'xterm'
 
-# gera numeros aleatorios obedecendo a regra:  a <= rand < b
+# gen random numbers a <= rand < b
 def criar_linha():
     print "-"*80
 
