@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # XOR Multilayer Perceptron using BackPropagation
 # Based on Neil Schemenauer's algorhitm
+# To-do: Apply PEP8
 
 import math
 import random
