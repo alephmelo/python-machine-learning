@@ -7,7 +7,7 @@
 # cat = [1,1,1,1] | answer = 1
 # horse = [1,1,-1,1] | answer = 1
 # man = [-1,-1,-1,1] | answer = -1
-
+# To-do: Apply PEP8
 # (sinapses)
 w = [0,0,0,0]
 # input
