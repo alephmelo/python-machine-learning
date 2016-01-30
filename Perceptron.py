@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
+# To-do: Apply PEP8
+
 # Perceptron Implementation
 # fourfeet = 1, twofeet = -1
 # dog = [-1,-1,1,1] | answer = 1
