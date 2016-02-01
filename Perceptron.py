@@ -17,15 +17,15 @@ x = [[-1,-1,1,1],
      [1,1,1,1],
      [1,1,-1,1],
      [-1,-1,-1,1]]
-# respostas esperadas
+# expected answers
 t = [1,1,1,-1]
-# bias (ajuste fino)
+# bias (adjustment)
 b = 0
-#saida
+# output
 y = 0
-# numero maximo de interacoes
+# max number of interaction
 max_int = 10
-# taxa de aprendizado
+# learning pace
 taxa_aprendizado = 1
 #soma
 soma = 0
