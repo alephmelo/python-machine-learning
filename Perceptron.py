@@ -27,17 +27,17 @@ y = 0
 max_int = 10
 # learning pace
 taxa_aprendizado = 1
-#soma
+# sum
 soma = 0
-#theshold
+# threshold
 threshold = 1
-# nome do animal
+# animal's name
 animal = ""
 
-# resposta = acerto ou falha
+# answer = right or wrong
 resposta = ""
 
-# dicionario de dados
+# data dictionary
 d = {'-1,-1,1,1' : 'cao',
      '1,1,1,1' : 'gato',
      '1,1,-1,1' : 'cavalo',
@@ -45,7 +45,7 @@ d = {'-1,-1,1,1' : 'cao',
 
 print("Treinando")
 
-# funcao para converter listas em strings
+# list to string function
 def listToString(list):
     s = str(list).strip('[]')
     s = s.replace(' ', '')
