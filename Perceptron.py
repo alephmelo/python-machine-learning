@@ -51,14 +51,14 @@ def listToString(list):
     s = s.replace(' ', '')
     return s
 
-# inicio do algoritmo
+# begin
 for k in range(1,max_int):
     acertos = 0    
     print("INTERACAO "+str(k)+"-------------------------")
     for i in range(0,len(x)):
         soma = 0
 
-        # pega o nome do animal no dicionário
+        # get animal's name inside the dict
         if d.has_key(listToString(x[i])):
             animal = d[listToString(x[i])]  
         else:
