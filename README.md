@@ -1,9 +1,10 @@
-# Python-Artificial-Intelligence
+# Building Machine Learning Systems with Python 
 
-This repository contains some piece of codes about Artificial Intelligence using Python. 
+I will be pushing files and small experiments into this repository at the pace that I'm reading the book by Willi Richert & Luis Pedro Coelho. 
+
+## Requirements
 
 * Python 2.7
-
-# To-do
-- [ ] Clean up code.
-- [ ] Translate all of it.
+* NumPy 1.6.2
+* SciPy 0.11
+* Scikit-learn 0.13
